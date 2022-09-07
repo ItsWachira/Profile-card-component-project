@@ -16,6 +16,11 @@
 
 body{
   
+/*     background-color: var(--body-bg-color); */
+        /* background-color: hsl(185deg, 75%, 39%); */
+    background-image: url(./assests/images/bg-pattern-top.svg), url(./assests/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -476px left -144px, bottom -549px right 18px;
     background-color: var(--body-bg-color);
 
 }

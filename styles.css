@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --primary-text-color: hsl(229, 23%, 23%);
+    --secondary-text-color: hsl(227, 10%, 46%)f;
+    --body-bg-color:hsl(185, 75%, 39%);
+    --neutral-color: hsl(0, 0%, 59%);
+   
+}
+
+body{
+
+    background-image: url(./assests/images/bg-pattern-top.svg), url(./assests/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -476px left -144px, bottom -549px right 18px;
+    background-color: var(--body-bg-color);
+
+}
+.main-container{
+ height: 390px;
+ width: 370px;
+ margin: 180px auto;
+ border-radius: 20px;
+ background-color: #fff;
+    box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.1);
+ 
+
+}
+
+.card-header__image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    
+
+}
+.card-body{
+    width: 100%;
+    
+
+}
+
+.profile-wrapper{
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+.profile-image{
+    height: 100px;
+    width:100px;
+    background-image: url(./assests/images/image-victor.jpg);
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute; 
+    top: -50px;
+    left: 130px; 
+    
+}
+
+
+.card-body__name{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px ;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.card-body__name span{
+    color: var(--neutral-color);
+    font-weight: 400;
+
+}
+.card-body__location{
+    color: var(--neutral-color);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px ;
+    margin-bottom: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card .card-footer{
+    border-top: 1px solid var(--neutral-color);
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+   
+    
+
+}
+
+.card .card-footer .profile-stats{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+.card .card-footer .profile-stats .stats{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card .card-footer .profile-stats .stats-info{
+    color: var(--neutral-color);
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
